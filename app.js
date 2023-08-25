@@ -121,7 +121,7 @@ app.use('/api/todoedit', require('./routes/todoedit.js'));
 app.use(express.static(path.join(__dirname, 'client/build')));
 app.get('/', function (req, res) {
     if(req.user) {
-        //다른파일에서 사용할 때 app.userid
+        //다른파일에서 사용할 때! app.userid
         res.json(req.user.id)
     } else {
         console.log('로그인 안됨')
