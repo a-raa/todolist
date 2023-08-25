@@ -1,0 +1,83 @@
+/* 저장된 메모를 보여주는 memo main page */
+
+.memo_result {
+    width: 100%;
+}
+
+.memo_box {
+    width: 90%;
+    margin: 20px auto;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.memo_box:last-child {
+    margin:0 auto;
+}
+
+.memo_add {
+    width: 90%;
+    height: 25px;
+}
+
+.memo_add input {
+    width: 89%;
+    height: 100%;
+    margin-right: 1%;
+    color: #060a12;
+}
+
+/* add btn */
+
+.memo_add_btn {
+    width: 10%;
+    height: 100%;
+    background-color: white;
+    color: #060a12;
+    transition: all 0.2s ease-in-out;
+}
+
+.memo_add button:hover {
+    transform: scale(1.1);
+}
+
+.memo_date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #000;
+    padding: 5px 10px;
+    background-color: rgb(10,13,66,0.6)
+}
+
+.memo_date p, .memo_text {
+    
+}
+
+.memo_date p:first-child {
+    font-size: 12px;
+}
+
+.memo_date button {
+    margin-left: 5px;
+}
+
+.memo_text {
+    font-size: 14px;
+    word-wrap: break-word;
+    padding: 10px;
+    font-weight:600;
+}
+
+.memo_date {
+    line-height:18px;
+    border-bottom:1px solid rgba(255, 255, 255, 0.5);
+}
+
+.memo_date a {
+    display: inline-block;
+}
+
+.memo_date img {
+    width: 18px;
+}
+
